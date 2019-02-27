@@ -1,8 +1,20 @@
-.contact-section .social {
-    margin-top: 5rem;
+.contact-section  {
+    padding: 5rem 0 0;
+    .social {
+        margin-top: 5rem; 
+        a {
+            text-align: center;
+            height: 3rem;
+            width: 3rem;
+            background: rgba(255,255,255,.1);
+            border-radius: 100%;
+            line-height: 3rem;
+            color: rgba(255,255,255,.3);
+        }
+    }
     .text-primary {
         color: #64a19d!important;
-    }
+    }   
     hr{
         border-color: #64a19d;
         border-width: .25rem;
@@ -13,5 +25,16 @@
         font-family: 'Varela Round';
         text-transform: uppercase;
         letter-spacing: .15rem;
+    }
+    .card{
+        border: 0;
+    border-bottom: .25rem solid #64a19d;
+    }
+    a:focus, a:hover {
+        text-decoration: none;
+        color: #3c6360;
+    }
+    a {
+        color: #64a19d;
     }
 }

@@ -16,7 +16,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md fixed-top custom-navbar pt-0 pb-0">
+    <nav class="navbar navbar-expand-md fixed-top custom-navbar pt-0 pb-0" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -28,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto nav-links">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">About</a>
+                       <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                      <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -55,7 +55,7 @@
     </header>
 
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="text-center mb-2">Built with Bootstrap 4</h2>
             <p class="text-center">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours
@@ -67,7 +67,7 @@
     </section>
 
 
-    <section class="project">
+    <section class="project" id="projects">
         <div class="container">
             <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                 <div class="col-xl-8 col-lg-7">
@@ -104,7 +104,7 @@
 
             <!-- project 02-->
 
-            <div class="row justify-content-center no-gutters">
+            <div class="row justify-content-center no-gutters" id="signup">
                 <div class="col-lg-6">
                     <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
                 </div>
@@ -211,11 +211,15 @@
               </footer>
 
 
-              
+
 
 
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/grayscale.min.js"></script>
+    
 </body>
 
 </html>

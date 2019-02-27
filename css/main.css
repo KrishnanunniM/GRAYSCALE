@@ -1,9 +1,3 @@
-body {
-  font-family: "Nunito", sans-serif;
-  letter-spacing: .0625em;
-  font-size: 1rem;
-}
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10594,5 +10588,165 @@ a.text-dark:hover, a.text-dark:focus {
 
 .banner .caption {
   height: 100vh;
+}
+
+.banner .caption h1 {
+  font-size: 6.5rem;
+  line-height: 6.5rem;
+  letter-spacing: .8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.banner .caption p {
+  max-width: 30rem;
+  font-size: 1.25rem;
+}
+
+.banner .caption a.btn-primary {
+  background-color: #64a19d;
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.banner .caption a.btn-primary:hover {
+  background-color: #2d6f6b;
+}
+
+@media (max-width: 767.98px) {
+  .banner .caption h1 {
+    font-size: 35px;
+  }
+  span.navbar-toggler-icon {
+    width: 30px;
+    background-color: #fff;
+    height: 2px;
+    display: block;
+    margin: 7px 0px;
+  }
+  ul.navbar-nav.ml-auto.nav-links {
+    background-color: #464444;
+    padding: 20px 0px;
+  }
+  .custom-navbar .nav-links a.nav-link {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.about {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+  background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.about h2 {
+  color: #fff;
+}
+
+.about p {
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: 5rem;
+}
+
+.project {
+  padding: 10rem 0;
+}
+
+.project .featured-text {
+  padding-left: 35px;
+  border-left: 6px solid #64a19d;
+}
+
+.project .project-info {
+  padding: 5rem;
+}
+
+.project hr {
+  border-color: #64a19d;
+  border-width: .25rem;
+  width: 30%;
+}
+
+@media (max-width: 767.98px) {
+  .project .featured-text {
+    padding: 0px;
+    border: none;
+  }
+}
+
+.sign-up {
+  padding: 10rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url(../img/bg-signup.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url(../img/bg-signup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.sign-up .form-inline input {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+}
+
+.sign-up .btn-primary {
+  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0;
+  background-color: #467370 !important;
+}
+
+.contact-section .social {
+  margin-top: 5rem;
+}
+
+.contact-section .social .text-primary {
+  color: #64a19d !important;
+}
+
+.contact-section .social hr {
+  border-color: #64a19d;
+  border-width: .25rem;
+  width: 3rem;
+}
+
+.contact-section .social h4 {
+  font-size: .8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  letter-spacing: .0625em;
+  font-size: 1rem;
+}
+
+button {
+  outline: none;
+}
+
+.bg-black {
+  background-color: #161616 !important;
 }
 /*# sourceMappingURL=main.css.map */

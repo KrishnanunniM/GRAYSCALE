@@ -1,0 +1,23 @@
+.project {
+    padding: 10rem 0;
+
+    .featured-text {
+        padding-left: 35px;
+        border-left: 6px solid #64a19d;
+    }
+    .project-info {
+        padding: 5rem;
+    }
+    hr{
+        border-color: #64a19d;
+        border-width: .25rem;
+        width: 30%;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .project .featured-text{
+        padding: 0px;
+        border: none;
+    }
+}

@@ -7,6 +7,45 @@
     background-attachment: scroll;
     background-size: cover;
     .caption{
-        height: 100vh;;
+        height: 100vh;       
+        h1{
+            font-size: 6.5rem;
+            line-height: 6.5rem;
+            letter-spacing: .8rem;    
+            background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;                   
+        }
+        p{
+            max-width: 30rem;
+            font-size: 1.25rem;
+        }
+        a.btn-primary{
+            background-color: #64a19d;
+            @include caption-btn;
+            &:hover{
+                background-color:#2d6f6b;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .banner .caption h1 {
+        font-size: 35px;       
+    }
+    span.navbar-toggler-icon {
+        width: 30px;
+        background-color: #fff;
+        height: 2px;
+        display: block;
+        margin: 7px 0px;
+    }
+    ul.navbar-nav.ml-auto.nav-links {
+        background-color: #464444;
+        padding: 20px 0px;
+    }
+    .custom-navbar .nav-links a.nav-link {
+        padding: 1rem 1.5rem;       
     }
 }

@@ -1,11 +1,21 @@
-$main-font: 'Varela Round', sans-serif;
-$font-text:'Nunito', sans-serif;
+@import "mixins";
+@import "../bootstrap/scss/bootstrap";
+@import "navbar";
+@import "banner";
+@import "about";
+@import "project";
+@import "sign-up";
+@import "contact";
+
 
 body {
     font-family: $font-text;  
     letter-spacing: .0625em;
     font-size: 1rem;
 }
-@import "../bootstrap/scss/bootstrap";
-@import "navbar";
-@import "banner";
+button{
+    outline: none;
+}
+.bg-black {
+    background-color: #161616!important;
+}

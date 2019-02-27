@@ -19,6 +19,9 @@
     }
     .btn-primary{
         @include caption-btn;
-        background-color: #467370!important;
+        background-color: #64a19d;
+        &:hover{
+            background-color:#2d6f6b;
+        }
     }    
 }
